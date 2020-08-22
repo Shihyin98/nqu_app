@@ -11,7 +11,10 @@ class App extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('Hello'),
-          actions: [Image.asset('assets/person.png')],
+          actions: [
+            Image.asset('assets/person.png'),
+            Image.asset('assets/person.png'),
+          ],
         ),
       ),
     );
